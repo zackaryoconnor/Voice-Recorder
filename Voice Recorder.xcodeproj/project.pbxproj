@@ -12,6 +12,8 @@
 		F38B0C032432A48F00D7CF12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38B0C022432A48F00D7CF12 /* ViewController.swift */; };
 		F38B0C082432A49900D7CF12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38B0C072432A49900D7CF12 /* Assets.xcassets */; };
 		F38B0C0B2432A49900D7CF12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38B0C092432A49900D7CF12 /* LaunchScreen.storyboard */; };
+		F38B0C142432A76F00D7CF12 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38B0C122432A76F00D7CF12 /* Extensions.swift */; };
+		F38B0C152432A76F00D7CF12 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38B0C132432A76F00D7CF12 /* UIView+Layout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F38B0C072432A49900D7CF12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F38B0C0A2432A49900D7CF12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F38B0C0C2432A49900D7CF12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38B0C122432A76F00D7CF12 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F38B0C132432A76F00D7CF12 /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				F38B0BFE2432A48F00D7CF12 /* AppDelegate.swift */,
 				F38B0C002432A48F00D7CF12 /* SceneDelegate.swift */,
+				F38B0C122432A76F00D7CF12 /* Extensions.swift */,
+				F38B0C132432A76F00D7CF12 /* UIView+Layout.swift */,
 				F38B0C022432A48F00D7CF12 /* ViewController.swift */,
 				F38B0C072432A49900D7CF12 /* Assets.xcassets */,
 				F38B0C092432A49900D7CF12 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 				F38B0C032432A48F00D7CF12 /* ViewController.swift in Sources */,
 				F38B0BFF2432A48F00D7CF12 /* AppDelegate.swift in Sources */,
 				F38B0C012432A48F00D7CF12 /* SceneDelegate.swift in Sources */,
+				F38B0C142432A76F00D7CF12 /* Extensions.swift in Sources */,
+				F38B0C152432A76F00D7CF12 /* UIView+Layout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
