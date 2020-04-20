@@ -30,7 +30,7 @@ extension UIImageView {
 }
 
 extension UIButton {
-    convenience init(title: String? = nil, backgroundColor: UIColor? = nil, setTitleColor: UIColor? = nil, font: UIFont? = nil, cornerRadius: CGFloat? = nil) {
+    convenience init(title: String? = nil, backgroundColor: UIColor? = nil, setTitleColor: UIColor? = .label, font: UIFont? = nil, cornerRadius: CGFloat? = nil) {
         self.init(type: .system)
         self.setTitle(title, for: .normal)
         self.backgroundColor = backgroundColor
@@ -62,10 +62,11 @@ extension UIView {
 
 
 extension UIStackView {
-    convenience init(arrangedSubviews: [UIView], customSpacing: CGFloat = 0, axis: NSLayoutConstraint.Axis = .vertical) {
+    convenience init(arrangedSubviews: [UIView], customSpacing: CGFloat = 0, axis: NSLayoutConstraint.Axis = .vertical, distribution: UIStackView.Distribution = .fillEqually) {
         self.init(arrangedSubviews: arrangedSubviews)
         self.spacing = customSpacing
         self.axis = axis
+        self.distribution = distribution
     }
 }
 
